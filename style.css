@@ -114,6 +114,10 @@
   width: 34px;
   border-radius: 50px;
   border: 3px solid #69b578;
+  overflow: hidden;
+}
+.profile > img {
+  height: 40px;
 }
 .menu {
   padding: 40px;
@@ -236,7 +240,8 @@
 .reviews {
   display: flex;
   gap: 20px;
-  overflow: hidden;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .card {
@@ -251,10 +256,6 @@
   flex-shrink: 0;
 }
 
-.card .active {
-  transform: scale(1.1);
-  background-color: #2a2a2a;
-}
 .avatar {
   width: 60px;
   height: 60px;
