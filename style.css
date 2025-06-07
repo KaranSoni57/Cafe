@@ -96,6 +96,12 @@
   border-radius: 50px;
   background-color: white;
   margin-left: 30px;
+  cursor: pointer;
+}
+.order > button:hover {
+  transform: scale(1.2);
+  background-color: #69b578;
+  color: white;
 }
 .personal {
   display: flex;
@@ -286,6 +292,7 @@
 }
 .contacts > img {
   height: 50px;
+  cursor: pointer;
 }
 .cu {
   text-align: center;
